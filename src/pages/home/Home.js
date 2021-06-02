@@ -8,13 +8,6 @@ function Home() {
         <>
             <header>
                 <h1>Explore Iceland</h1>
-            <div className="home-image-container">
-                {/*<ImageCard*/}
-                {/*    className="image"*/}
-                {/*    img={kirkjufellsfoss}*/}
-                {/*    imgDescription="kikjufellsfoss"*/}
-                {/*/>*/}
-            </div>
             </header>
             <main>
                 <h1>Lorem ipsum dolor sit amet.</h1>

@@ -4,6 +4,7 @@ function Zuid() {
     return (
         <div className="zuid">
             <h1>Zuid</h1>
+            <p>Under Construction</p>
         </div>
     );
 }

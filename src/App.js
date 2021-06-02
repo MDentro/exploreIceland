@@ -7,10 +7,10 @@ import {
     Route,
 } from "react-router-dom";
 import Home from "./pages/home/Home";
-import Zuid from "./pages/Zuid";
-import Noord from "./pages/Noord";
-import West from "./pages/West";
-import Hooglanden from "./pages/Hooglanden";
+import Zuid from "./pages/zuid/Zuid";
+import Noord from "./pages/noord/Noord";
+import West from "./pages/west/West";
+import Hooglanden from "./pages/hooglanden/Hooglanden";
 
 function App() {
     return (
