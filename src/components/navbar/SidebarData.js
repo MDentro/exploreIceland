@@ -6,7 +6,7 @@ export const SidebarData = [
     },
 
     {
-        title: "Regio Noord",
+        title: "Regio Zuid",
         path: "/zuid",
         cName: "nav-text"
     },

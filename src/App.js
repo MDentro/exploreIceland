@@ -6,11 +6,11 @@ import {
     Switch,
     Route,
 } from "react-router-dom";
-import Home from "./pages/Home";
+import Home from "./pages/home/Home";
 import Zuid from "./pages/Zuid";
 import Noord from "./pages/Noord";
 import West from "./pages/West";
-import Messages from "./pages/Hooglanden";
+import Hooglanden from "./pages/Hooglanden";
 
 function App() {
     return (
@@ -31,7 +31,7 @@ function App() {
                         <West/>
                     </Route>
                     <Route path="/hooglanden">
-                        <Messages/>
+                       <Hooglanden/>
                     </Route>
                 </Switch>
             </Router>
