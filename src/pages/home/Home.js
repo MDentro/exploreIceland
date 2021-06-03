@@ -1,7 +1,6 @@
 import React from "react";
-import ImageCard from "../../components/imageCard/ImageCard";
 import "./Home.css";
-import kirkjufellsfoss from "../../assets/kirkjufellsfoss.jpg";
+
 
 function Home() {
     return (

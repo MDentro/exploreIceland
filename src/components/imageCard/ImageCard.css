@@ -1,11 +1,20 @@
+.image__resize {
+    width: 600px;
+    height: auto;
+    object-fit: cover;
+}
 
+.image__resize:hover {
+    transition: transform .10s, ease-in-out;
+    transform: scale(1.1);
+}
 
+.image-container {
+    width: 600px;
+    height: auto;
+    overflow: hidden;
+}
 
-/*.image__resize {*/
-/*    width:100vw;*/
-/*    height: 750px;*/
-/*    object-fit: cover;*/
-/*}*/
 
 /*header {*/
 /*    !*position: absolute;*!*/

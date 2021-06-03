@@ -7,7 +7,7 @@ import {
     Route,
 } from "react-router-dom";
 import Home from "./pages/home/Home";
-import Zuid from "./pages/zuid/Zuid";
+import South from "./pages/south/South";
 import Noord from "./pages/noord/Noord";
 import West from "./pages/west/West";
 import Hooglanden from "./pages/hooglanden/Hooglanden";
@@ -21,8 +21,8 @@ function App() {
                     <Route exact path="/">
                         <Home/>
                     </Route>
-                    <Route path="/zuid">
-                        <Zuid/>
+                    <Route path="/south">
+                        <South/>
                     </Route>
                     <Route path="/noord">
                         <Noord/>
