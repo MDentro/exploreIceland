@@ -1,91 +1,90 @@
 .container-south {
-    padding: 20px;
+    padding: 30px;
     display: grid;
     column-gap: 30px;
+    justify-content: center;
+    align-items: center;
     row-gap: 50px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 150px auto 400px 500px;
+    grid-template-columns: repeat(auto-fill, 400px);
+    grid-template-rows: 150px repeat(10, auto);
     grid-template-areas:
-                "a b"
-                "empty b"
-                "c d"
-                "c e"
-                "f e"
-                "g e"
-                "h i"
-                "j k"
-                "l l";
-}
-
-.item {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 16px;
-
+                "a"
+                "b"
+                "c"
+                "d"
+                "e"
+                "f"
+                "g"
+                "h"
+                "j"
+                "i"
+                "k"
+                "l";
 }
 
 p {
-    margin: 15px 15px 15px 0;
+    line-height: 30px;
+    margin: 15px 0 15px 0;
+    font-size: 13px;
 }
 
-#item-a {
+.container-south__h1 {
+    font-size: 80px;
+    text-align: center;
+}
+
+#container-south__item-a {
     grid-area: a;
+    justify-self: center;
 }
 
-.item-empty {
-    grid-area: empty;
-}
-
-#item-b {
+#container-south__item-b {
     grid-area: b;
+    width: 400px;
 }
 
-#item-c {
+#container-south__item-c {
     grid-area: c;
 }
 
-#item-d {
+#container-south__item-d {
     grid-area: d;
 }
 
-#item-e {
+#container-south__item-e {
     grid-area: e;
 }
 
-#item-f {
+#container-south__item-f {
     grid-area: f;
 }
 
-#item-g {
+#container-south__item-g {
     grid-area: g;
     text-align: center;
 }
 
-#item-j {
+#container-south__item-h {
+    grid-area: h;
+}
+
+#container-south__item-i {
+    grid-area: i;
+}
+
+#container-south__item-j {
     grid-area: j;
 }
 
-#item-k {
+#container-south__item-k {
     grid-area: k;
 }
-#item-l {
+
+#container-south__item-l {
     grid-area: l;
     text-align: center;
 }
 
-.map {
-    width: 650px;
-    height: auto;
-}
-
-.item-quote {
-    text-align: start;
+.container-south__item-quote {
     color: hsl(0, 59%, 41%);
-}
-
-.item-text {
-    margin-left: 100px;
-    padding: 15px;
 }

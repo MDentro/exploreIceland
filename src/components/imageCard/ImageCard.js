@@ -1,20 +1,17 @@
 import React from 'react';
 import "./ImageCard.css"
 
-function ImageCard({label, img, imgDescription, id}) {
+function ImageCard({img, imgDescription, id}) {
     return (
-        <div className={label}>
-            <section className="image-container">
+            <section className="image-container" id={id}>
                 <article>
                     {<img
                         className="image__resize"
                         src={img}
                         alt={imgDescription}
-                        id={id}
                     />}
                 </article>
             </section>
-        </div>
     );
 }
 
