@@ -1,0 +1,9 @@
+.image__resize--circle {
+   border-radius: 50%;
+   border: 0.5rem solid #f5f5f5;
+   margin: 10px;
+}
+
+.image-container--circle-title {
+   text-align: center;
+}

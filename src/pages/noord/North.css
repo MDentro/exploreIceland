@@ -1,0 +1,62 @@
+.container-north {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100vw;
+    padding: 30px;
+}
+.container-north__circle-image-container {
+    padding: 20px;
+    margin: 10px 0 35px 0;
+    min-height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    background-color: #060b26;
+    color: white
+}
+
+.container-north__bottom-image-container {
+    padding: 20px;
+    margin: 10px 0 35px 0;
+    min-height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+#container-north__ejafjordur, #container-north__akureyri {
+    margin: 10px;
+}
+
+.container-north-title {
+    font-size: 80px;
+}
+
+.container-north__introduction-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-north__text {
+    width: 80%;
+    padding: 10px
+}
+
+#container-north__map-north {
+    width: 400px;
+    padding: 10px 0 30px 0;
+}
+
+@media screen and (min-width: 992px) {
+    #container-north__map-north {
+        width: 800px;
+    }
+}
