@@ -16,7 +16,7 @@
 }
 
 
-@media only screen and (min-width: 992px)  {
+@media only screen and (min-width: 1300px)  {
     .image__resize {
         width: 600px;
         height: auto;

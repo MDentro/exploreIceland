@@ -7,14 +7,14 @@ import mapSouth from "../../assets/map-south.JPG";
 function South() {
     return (
         <div className="container-south">
-            <article className="title" id="container-south__item-a">
-                <h1 className="container-south__h1">Regio Zuid</h1>
-                <p className="subtitle">Lorem ipsum dolor sit amet</p>
+            <article className="container-south__title" id="container-south__item-a">
+                <h1 className="container-south__region">Regio Zuid</h1>
+                <p className="container-south__subtitle">Lorem ipsum dolor sit amet</p>
             </article>
 
             <img src={mapSouth} alt="map-south" id="container-south__item-b"/>
 
-            <article className="item-text" id="container-south__item-c">
+            <article className="container-south__item-text" id="container-south__item-c">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda dignissimos
                     exercitationem maiores quas. Aspernatur aut consectetur cupiditate deleniti, doloribus esse in
                     incidunt minus omnis repellendus rerum tenetur, veniam voluptas.</p>
@@ -22,6 +22,10 @@ function South() {
                     deleniti ea enim eos eveniet excepturi exercitationem, explicabo facilis fugiat harum id illum
                     impedit in labore libero molestias necessitatibus nemo, nisi non nulla optio pariatur perferendis
                     provident quae quia sapiente soluta sunt vero voluptas voluptate voluptates voluptatibus?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus odio quaerat quasi voluptas? Est
+                    eveniet harum officiis omnis! Autem dolorem doloribus explicabo id inventore pariatur quos unde?
+                    Aperiam culpa debitis, deserunt dolore enim explicabo modi nobis quaerat quibusdam repudiandae?
+                    Recusandae.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus odio quaerat quasi voluptas? Est
                     eveniet harum officiis omnis! Autem dolorem doloribus explicabo id inventore pariatur quos unde?
                     Aperiam culpa debitis, deserunt dolore enim explicabo modi nobis quaerat quibusdam repudiandae?
@@ -35,7 +39,7 @@ function South() {
                 />
             </div>
 
-            <article className="item-text" id="container-south__item-e">
+            <article className="container-south__item-text" id="container-south__item-e">
                 <h2>Lorem ipsum dolor sit amet, consectetur. </h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda dignissimos
                     exercitationem maiores quas. Aspernatur aut consectetur cupiditate deleniti, doloribus esse in
@@ -48,6 +52,10 @@ function South() {
                     eveniet harum officiis omnis! Autem dolorem doloribus explicabo id inventore pariatur quos unde?
                     Aperiam culpa debitis, deserunt dolore enim explicabo modi nobis quaerat quibusdam repudiandae?
                     Recusandae.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus odio quaerat quasi voluptas? Est
+                    eveniet harum officiis omnis! Autem dolorem doloribus explicabo id inventore pariatur quos unde?
+                    Aperiam culpa debitis, deserunt dolore enim explicabo modi nobis quaerat quibusdam repudiandae?
+                    Recusandae.</p>
             </article>
 
             <ImageCard
@@ -56,7 +64,7 @@ function South() {
                 id="container-south__item-f"
             />
 
-            <div className="quote-container" id="container-south__item-g">
+            <div id="container-south__item-g">
                 <article className="container-south__item-quote">
                     <h3>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, voluptate!"</h3>
                 </article>
@@ -75,14 +83,14 @@ function South() {
                 />
             </div>
 
-            <article className="item-text" id="container-south__item-j">
+            <article className="container-south__item-text" id="container-south__item-j">
                 <h2>Lorem ipsum dolor sit amet. </h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda dignissimos
                     exercitationem maiores quas. Aspernatur aut consectetur cupiditate deleniti, doloribus esse in
                     incidunt minus omnis repellendus rerum tenetur, veniam voluptas.</p>
             </article>
 
-            <article className="item-text" id="container-south__item-k">
+            <article className="container-south__item-text" id="container-south__item-k">
                 <h2>Lorem ipsum dolor sit. </h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda dignissimos
                     exercitationem maiores quas. Aspernatur aut consectetur cupiditate deleniti, doloribus esse in
