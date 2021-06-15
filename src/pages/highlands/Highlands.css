@@ -1,0 +1,23 @@
+.highlands-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100vw;
+    padding: 30px;
+}
+
+.container-highlands__title {
+    font-size: 80px;
+    text-align: center;
+}
+
+.container-highlands__carousel {
+   max-height: 800px;
+   width: auto;
+}
+
+.highlands-container__text {
+    width: 80%;
+    padding: 10px
+}

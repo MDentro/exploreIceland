@@ -25,7 +25,7 @@ export const SidebarData = [
 
     {
         title: "Regio Centrale Hooglanden",
-        path: "/hooglanden",
+        path: "/highlands",
         cName: "nav-text"
     }
 ]

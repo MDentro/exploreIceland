@@ -10,7 +10,7 @@ import Home from "./pages/home/Home";
 import South from "./pages/south/South";
 import North from "./pages/noord/North";
 import West from "./pages/west/West";
-import Hooglanden from "./pages/hooglanden/Hooglanden";
+import Hooglanden from "./pages/highlands/Highlands";
 
 function App() {
     return (
@@ -30,7 +30,7 @@ function App() {
                     <Route path="/west">
                         <West/>
                     </Route>
-                    <Route path="/hooglanden">
+                    <Route path="/highlands">
                        <Hooglanden/>
                     </Route>
                 </Switch>

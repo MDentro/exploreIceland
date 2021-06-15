@@ -96,7 +96,6 @@ function South() {
                     exercitationem maiores quas. Aspernatur aut consectetur cupiditate deleniti, doloribus esse in
                     incidunt minus omnis repellendus rerum tenetur, veniam voluptas.</p>
             </article>
-
             <footer id="container-south__item-l">© 2021 Explore Iceland</footer>
         </div>
     );
