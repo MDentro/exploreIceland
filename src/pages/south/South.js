@@ -59,8 +59,8 @@ function South() {
             </article>
 
             <ImageCard
-                img={`https://www.iceland.is/images/photos/lundi-003-2.jpg?800x600;crop`}
-                imgDescription="puffins"
+                img={`https://www.iceland.is/images/photos/dtw-skolaferdalag-2012-412.jpg?800x600;crop`}
+                imgDescription="strokkur"
                 id="container-south__item-f"
             />
 

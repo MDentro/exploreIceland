@@ -1,0 +1,11 @@
+.image {
+    height: 400px;
+    width: 500px;
+}
+
+.image-container {
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-shrink: 0;
+}

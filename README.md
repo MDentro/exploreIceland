@@ -1,12 +1,20 @@
 ## Explore Iceland
 
-# Project is under construction
+## This project is under construction
 
 ## This project displays different techniques with one overal topic.
 
+# What did I practice:
+- Image carousel
+- Pull out hamburger menu
+- Grid
+- Flexbox
+- BEM
+- Different styles of image components 
+
 
 ### Page Home
-Detail: background image, text below will scroll over the background imag (text is below the screenshot)
+Detail: background image, text below will scroll over the background image (text is below the screenshot)
 
 ![home-page](src/assets/screenshot-top-homepage.JPG)
 
@@ -23,6 +31,11 @@ Detail: Automatic Image Carousel.
 
 ![highlands](src/assets/screenshot-image-carousel.JPG)
 
+
+### Page Regio Snaefellsnes en Westfjorden
+Detail: Flexbox display
+
+![west](src/assets/screenshot-west.JPG)
 
 
 

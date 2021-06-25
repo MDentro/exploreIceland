@@ -77,8 +77,6 @@ function North() {
 
             <footer>© 2021 Explore Iceland</footer>
         </div>
-
-
     );
 }
 
